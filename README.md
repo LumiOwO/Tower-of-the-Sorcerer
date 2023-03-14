@@ -11,11 +11,6 @@
 https://user-images.githubusercontent.com/48267313/224937238-ddc1f293-81e6-4ab5-8ba5-c4735e7a038c.mp4
 
 
-## 素材来源
-
-- 胖老鼠魔塔 21 层极限 200 级完美通关——成功防杀魔龙 BOSS，https://www.bilibili.com/video/av18020936/ 
-- MapleStory OST
-
 ## 帮助
 
 ### 游戏控制
@@ -79,3 +74,8 @@ https://user-images.githubusercontent.com/48267313/224937238-ddc1f293-81e6-4ab5-
 |炎之权杖	 | 提升当前攻击力的2/3 |
 |冰之权杖	 | 提升当前防御值的2/3 |
 |土之权杖	 | 提升当前生命值的2/3 |
+
+## 素材来源
+
+- 胖老鼠魔塔 21 层极限 200 级完美通关——成功防杀魔龙 BOSS，[bilibili](https://www.bilibili.com/video/av18020936/)
+- MapleStory OST

@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dataManager\dataManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\game.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\viewManager\viewManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\resourceManager\resourceManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\viewManager\widgets\menubar\menubar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\viewManager\widgets\statusbar\statusbar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dataManager\elements\cell\cell.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dataManager\elements\map\map.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timer\timer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\viewManager\widgets\scene\scene.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dataManager\elements\barrier\barrier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dataManager\elements\character\character.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dataManager\elements\hero\hero.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dataManager\elements\barrierFactory\barrierFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dataManager\elements\enemyFactory\enemyFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\viewManager\widgets\infoPanel\infoPanel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dataManager\elements\item\item.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dataManager\elements\itemFactory\itemFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\viewManager\Graph_lib\Graph.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\viewManager\Graph_lib\GUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\viewManager\Graph_lib\Simple_window.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\viewManager\Graph_lib\Window.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dataManager\elements\npc\npc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\viewManager\widgets\talkingUI\talkingUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\viewManager\widgets\tradeButton\tradeButton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\viewManager\widgets\textDisplay\textDisplay.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dataManager\elements\npcFactory\npcFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\viewManager\widgets\mainmenu\mainmenu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\viewManager\widgets\controlButton\controlButton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\viewManager\widgets\bookPanel\bookPanel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\viewManager\widgets\helpPanel\helpPanel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\viewManager\widgets\transportPanel\transportPanel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\viewManager\widgets\enemyInfoBox\enemyInfoBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\viewManager\widgets\winUI\winUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\dataManager\dataManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\game.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\viewManager\viewManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\resourceManager\resourceManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\viewManager\widgets\widgets.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\viewManager\widgets\menubar\menubar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\viewManager\widgets\statusbar\statusbar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dataManager\elements\cell\cell.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dataManager\elements\map\map.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dataManager\elements\elements.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\timer\timer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\viewManager\widgets\scene\scene.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dataManager\elements\barrier\barrier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dataManager\elements\character\character.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dataManager\elements\hero\hero.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dataManager\elements\barrierFactory\barrierFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dataManager\elements\enemyFactory\enemyFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\linkedlist\linkedlist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\viewManager\widgets\infoPanel\infoPanel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dataManager\elements\item\item.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dataManager\elements\itemFactory\itemFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\viewManager\Graph_lib\Graph.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\viewManager\Graph_lib\GUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\viewManager\Graph_lib\Point.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\viewManager\Graph_lib\Simple_window.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\viewManager\Graph_lib\std_lib_facilities.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\viewManager\Graph_lib\Window.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dataManager\elements\npc\npc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\viewManager\widgets\talkingUI\talkingUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\viewManager\widgets\tradeButton\tradeButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\viewManager\widgets\textDisplay\textDisplay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dataManager\elements\npcFactory\npcFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\viewManager\widgets\mainmenu\mainmenu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\viewManager\widgets\controlButton\controlButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\viewManager\widgets\bookPanel\bookPanel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\viewManager\widgets\helpPanel\helpPanel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\viewManager\widgets\transportPanel\transportPanel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\viewManager\widgets\enemyInfoBox\enemyInfoBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\viewManager\widgets\winUI\winUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tower of the Sorcerer.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\icon\icon.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

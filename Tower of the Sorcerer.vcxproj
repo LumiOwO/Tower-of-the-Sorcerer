@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{3202C6A3-D9EE-4D96-B046-A88A8F1C24E3}</ProjectGuid>
+    <RootNamespace>ToweroftheSorcerer</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(SolutionName)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Comctl32.lib;fltkd.lib;fltkformsd.lib;fltkgld.lib;fltkimagesd.lib;fltkjpegd.lib;fltkpngd.lib;fltkzlibd.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/subsystem:windows %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>Comctl32.lib;fltk.lib;fltkforms.lib;fltkgl.lib;fltkimages.lib;fltkjpeg.lib;fltkpng.lib;fltkzlib.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/subsystem:windows %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\dataManager\dataManager.cpp" />
+    <ClCompile Include="src\dataManager\elements\barrierFactory\barrierFactory.cpp" />
+    <ClCompile Include="src\dataManager\elements\barrier\barrier.cpp" />
+    <ClCompile Include="src\dataManager\elements\cell\cell.cpp" />
+    <ClCompile Include="src\dataManager\elements\character\character.cpp" />
+    <ClCompile Include="src\dataManager\elements\enemyFactory\enemyFactory.cpp" />
+    <ClCompile Include="src\dataManager\elements\hero\hero.cpp" />
+    <ClCompile Include="src\dataManager\elements\itemFactory\itemFactory.cpp" />
+    <ClCompile Include="src\dataManager\elements\item\item.cpp" />
+    <ClCompile Include="src\dataManager\elements\map\map.cpp" />
+    <ClCompile Include="src\dataManager\elements\npcFactory\npcFactory.cpp" />
+    <ClCompile Include="src\dataManager\elements\npc\npc.cpp" />
+    <ClCompile Include="src\game\game.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\resourceManager\resourceManager.cpp" />
+    <ClCompile Include="src\timer\timer.cpp" />
+    <ClCompile Include="src\viewManager\Graph_lib\Graph.cpp" />
+    <ClCompile Include="src\viewManager\Graph_lib\GUI.cpp" />
+    <ClCompile Include="src\viewManager\Graph_lib\Simple_window.cpp" />
+    <ClCompile Include="src\viewManager\Graph_lib\Window.cpp" />
+    <ClCompile Include="src\viewManager\viewManager.cpp" />
+    <ClCompile Include="src\viewManager\widgets\bookPanel\bookPanel.cpp" />
+    <ClCompile Include="src\viewManager\widgets\controlButton\controlButton.cpp" />
+    <ClCompile Include="src\viewManager\widgets\enemyInfoBox\enemyInfoBox.cpp" />
+    <ClCompile Include="src\viewManager\widgets\helpPanel\helpPanel.cpp" />
+    <ClCompile Include="src\viewManager\widgets\infoPanel\infoPanel.cpp" />
+    <ClCompile Include="src\viewManager\widgets\mainmenu\mainmenu.cpp" />
+    <ClCompile Include="src\viewManager\widgets\menubar\menubar.cpp" />
+    <ClCompile Include="src\viewManager\widgets\scene\scene.cpp" />
+    <ClCompile Include="src\viewManager\widgets\statusbar\statusbar.cpp" />
+    <ClCompile Include="src\viewManager\widgets\talkingUI\talkingUI.cpp" />
+    <ClCompile Include="src\viewManager\widgets\textDisplay\textDisplay.cpp" />
+    <ClCompile Include="src\viewManager\widgets\tradeButton\tradeButton.cpp" />
+    <ClCompile Include="src\viewManager\widgets\transportPanel\transportPanel.cpp" />
+    <ClCompile Include="src\viewManager\widgets\winUI\winUI.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="resource1.h" />
+    <ClInclude Include="src\dataManager\dataManager.h" />
+    <ClInclude Include="src\dataManager\elements\barrierFactory\barrierFactory.h" />
+    <ClInclude Include="src\dataManager\elements\barrier\barrier.h" />
+    <ClInclude Include="src\dataManager\elements\cell\cell.h" />
+    <ClInclude Include="src\dataManager\elements\character\character.h" />
+    <ClInclude Include="src\dataManager\elements\elements.h" />
+    <ClInclude Include="src\dataManager\elements\enemyFactory\enemyFactory.h" />
+    <ClInclude Include="src\dataManager\elements\hero\hero.h" />
+    <ClInclude Include="src\dataManager\elements\itemFactory\itemFactory.h" />
+    <ClInclude Include="src\dataManager\elements\item\item.h" />
+    <ClInclude Include="src\dataManager\elements\map\map.h" />
+    <ClInclude Include="src\dataManager\elements\npcFactory\npcFactory.h" />
+    <ClInclude Include="src\dataManager\elements\npc\npc.h" />
+    <ClInclude Include="src\game\game.h" />
+    <ClInclude Include="src\linkedlist\linkedlist.h" />
+    <ClInclude Include="src\resourceManager\resourceManager.h" />
+    <ClInclude Include="src\timer\timer.h" />
+    <ClInclude Include="src\viewManager\Graph_lib\Graph.h" />
+    <ClInclude Include="src\viewManager\Graph_lib\GUI.h" />
+    <ClInclude Include="src\viewManager\Graph_lib\Point.h" />
+    <ClInclude Include="src\viewManager\Graph_lib\Simple_window.h" />
+    <ClInclude Include="src\viewManager\Graph_lib\std_lib_facilities.h" />
+    <ClInclude Include="src\viewManager\Graph_lib\Window.h" />
+    <ClInclude Include="src\viewManager\viewManager.h" />
+    <ClInclude Include="src\viewManager\widgets\bookPanel\bookPanel.h" />
+    <ClInclude Include="src\viewManager\widgets\controlButton\controlButton.h" />
+    <ClInclude Include="src\viewManager\widgets\enemyInfoBox\enemyInfoBox.h" />
+    <ClInclude Include="src\viewManager\widgets\helpPanel\helpPanel.h" />
+    <ClInclude Include="src\viewManager\widgets\infoPanel\infoPanel.h" />
+    <ClInclude Include="src\viewManager\widgets\mainmenu\mainmenu.h" />
+    <ClInclude Include="src\viewManager\widgets\menubar\menubar.h" />
+    <ClInclude Include="src\viewManager\widgets\scene\scene.h" />
+    <ClInclude Include="src\viewManager\widgets\statusbar\statusbar.h" />
+    <ClInclude Include="src\viewManager\widgets\talkingUI\talkingUI.h" />
+    <ClInclude Include="src\viewManager\widgets\textDisplay\textDisplay.h" />
+    <ClInclude Include="src\viewManager\widgets\tradeButton\tradeButton.h" />
+    <ClInclude Include="src\viewManager\widgets\transportPanel\transportPanel.h" />
+    <ClInclude Include="src\viewManager\widgets\widgets.h" />
+    <ClInclude Include="src\viewManager\widgets\winUI\winUI.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tower of the Sorcerer.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\icon\icon.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
